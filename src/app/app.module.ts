@@ -10,6 +10,7 @@ import { HighlightCardComponent } from './highlight-card/highlight-card.componen
 import { HomeComponent } from './home/home.component';
 import { AulasComponent } from './aulas/aulas.component';
 import { ListasComponent } from './listas/listas.component';
+import { FerramentasComponent } from './ferramentas/ferramentas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListasComponent } from './listas/listas.component';
     HighlightCardComponent,
     HomeComponent,
     AulasComponent,
-    ListasComponent
+    ListasComponent,
+    FerramentasComponent
   ],
   imports: [
     BrowserModule,
