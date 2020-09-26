@@ -70,7 +70,7 @@ svg.material-icons:not(:last-child) {
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-top: 16px;
 }
@@ -81,6 +81,38 @@ svg.material-icons:not(:last-child) {
   background-color: #fafafa;
   height: 40px;
   width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card-large {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 120px;
+  width: 300px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card-extra-large {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 120px;
+  width: 500px;
   margin: 0 8px 16px;
   padding: 16px;
   display: flex;
